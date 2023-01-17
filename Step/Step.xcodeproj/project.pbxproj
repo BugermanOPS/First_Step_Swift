@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7503FF6C296BF7B800EF58F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7503FF6B296BF7B800EF58F4 /* main.swift */; };
+		753411BC2977051000E825DE /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753411BB2977051000E825DE /* BubbleSort.swift */; };
+		753411BE2977075B00E825DE /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753411BD2977075B00E825DE /* MergeSort.swift */; };
+		753411C029770C8700E825DE /* Kodeco.com .swift in Sources */ = {isa = PBXBuildFile; fileRef = 753411BF29770C8700E825DE /* Kodeco.com .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		7503FF68296BF7B800EF58F4 /* Step */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Step; sourceTree = BUILT_PRODUCTS_DIR; };
 		7503FF6B296BF7B800EF58F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		753411BB2977051000E825DE /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		753411BD2977075B00E825DE /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		753411BF29770C8700E825DE /* Kodeco.com .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kodeco.com .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				7503FF6B296BF7B800EF58F4 /* main.swift */,
+				753411BB2977051000E825DE /* BubbleSort.swift */,
+				753411BD2977075B00E825DE /* MergeSort.swift */,
+				753411BF29770C8700E825DE /* Kodeco.com .swift */,
 			);
 			path = Step;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753411BE2977075B00E825DE /* MergeSort.swift in Sources */,
 				7503FF6C296BF7B800EF58F4 /* main.swift in Sources */,
+				753411C029770C8700E825DE /* Kodeco.com .swift in Sources */,
+				753411BC2977051000E825DE /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
